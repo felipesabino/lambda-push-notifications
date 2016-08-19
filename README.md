@@ -45,8 +45,8 @@ Source SNS topic should receive notifications in the following format:
 
 ```
 {
-  apns: { alert: 'Test message', badge: 1, sound: 'default' }
-  gcm: { text: 'Test message', data: 12345 }
+  apns: { alert: 'Test message', badge: 1, sound: 'default' },
+  gcm: { text: 'Test message', data: 12345 },
   apns_recipients: ['APNS device token'],
   gcm_recipients: ['GCM device token']
 }
